@@ -1,0 +1,110 @@
+@use '../abstracts/sizes' as *;
+@use '../abstracts/mixins' as *;
+
+/* MARGIN */
+/* Margin all sides */
+.m-auto {
+  @include property(margin, auto);
+}
+
+$margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $margin-all {
+  .m#{$size} {
+    margin: $value;
+  }
+}
+
+/* Margin top */
+$margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $margin-all {
+  .mt-#{$size} {
+    margin-top: $value;
+  }
+}
+
+/* Margin bottom */
+$margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $margin-all {
+  .mb-#{$size} {
+    margin-bottom: $value;
+  }
+}
+
+/* Margin left */
+$margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $margin-all {
+  .ml-#{$size} {
+    margin-left: $value;
+  }
+}
+
+/* Margin right */
+$margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $margin-all {
+  .mr-#{$size} {
+    margin-right: $value;
+  }
+}
+
+/* Margin left and right */
+$margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $margin-all {
+  .mlr-#{$size} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+}
+
+/* PADDING */
+/* Padding all sides */
+.p-auto {
+  @include property(padding, auto);
+}
+
+$padding-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $padding-all {
+  .p#{$size} {
+    padding: $value;
+  }
+}
+
+/* Padding top */
+$padding-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $padding-all {
+  .pt-#{$size} {
+    padding-top: $value;
+  }
+}
+
+/* Padding bottom */
+$padding-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $padding-all {
+  .pb-#{$size} {
+    padding-bottom: $value;
+  }
+}
+
+/* Padding left */
+$padding-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $padding-all {
+  .pl-#{$size} {
+    padding-left: $value;
+  }
+}
+
+/* Padding right */
+$padding-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $padding-all {
+  .pr-#{$size} {
+    padding-right: $value;
+  }
+}
+
+/* Padding left and right */
+$padding-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+@each $size, $value in $padding-all {
+  .plr-#{$size} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}
