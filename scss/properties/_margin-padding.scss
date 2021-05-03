@@ -1,8 +1,6 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixins' as *;
 
-/* MARGIN */
-
 /* Margin auto all sides */
 .m-auto {
   @include property(margin, auto);
@@ -69,23 +67,7 @@
   }
 }
 
-/* PADDING */
-
 /* Padding all sides */
-.p-auto {
-  @include property(padding, auto);
-}
-
-/* Margin auto top and bottom */
-.ptb-auto {
-  @include property-two(padding-top, padding-bottom, auto);
-}
-
-/* Margin auto left and right */
-.plr-auto {
-  @include property-two(padding-left, padding-right, auto);
-}
-
 @each $size, $value in $padding-all {
   .p-#{$size} {
     padding: $value;
@@ -122,7 +104,7 @@
 
 /* Padding top and bottom */
 @each $size, $value in $padding-top-bottom {
-  .plr-#{$size} {
+  .ptb-#{$size} {
     padding-top: $value;
     padding-bottom: $value;
   }

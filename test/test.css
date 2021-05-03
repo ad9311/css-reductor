@@ -8,7 +8,6 @@ body {
 .square {
   width: 100px;
   height: 40px;
-  /* text-align: center; */
 }
 
 .color1 {
@@ -22,4 +21,3 @@ body {
 .color3 {
   background-color: grey;
 }
-
