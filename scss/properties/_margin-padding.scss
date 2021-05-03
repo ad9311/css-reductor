@@ -1,0 +1,119 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+/* Margin auto all sides */
+.m-auto {
+  @include property(margin, auto);
+}
+
+/* Margin auto top and bottom */
+.mtb-auto {
+  @include property-two(margin-top, margin-bottom, auto);
+}
+
+/* Margin auto left and right */
+.mlr-auto {
+  @include property-two(margin-left, margin-right, auto);
+}
+
+/* Margin all sides */
+@each $size, $value in $margin-all {
+  .m-#{$size} {
+    margin: $value;
+  }
+}
+
+/* Margin top */
+@each $size, $value in $margin-top {
+  .mt-#{$size} {
+    margin-top: $value;
+  }
+}
+
+/* Margin bottom */
+@each $size, $value in $margin-bottom {
+  .mb-#{$size} {
+    margin-bottom: $value;
+  }
+}
+
+/* Margin left */
+@each $size, $value in $margin-left {
+  .ml-#{$size} {
+    margin-left: $value;
+  }
+}
+
+/* Margin right */
+@each $size, $value in $margin-right {
+  .mr-#{$size} {
+    margin-right: $value;
+  }
+}
+
+/* Margin top and bottom */
+@each $size, $value in $margin-top-bottom {
+  .mtb-#{$size} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}
+
+/* Margin left and right */
+@each $size, $value in $margin-left-right {
+  .mlr-#{$size} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+}
+
+/* Padding all sides */
+@each $size, $value in $padding-all {
+  .p-#{$size} {
+    padding: $value;
+  }
+}
+
+/* Padding top */
+@each $size, $value in $padding-top {
+  .pt-#{$size} {
+    padding-top: $value;
+  }
+}
+
+/* Padding bottom */
+@each $size, $value in $padding-bottom {
+  .pb-#{$size} {
+    padding-bottom: $value;
+  }
+}
+
+/* Padding left */
+@each $size, $value in $padding-left {
+  .pl-#{$size} {
+    padding-left: $value;
+  }
+}
+
+/* Padding right */
+@each $size, $value in $padding-right {
+  .pr-#{$size} {
+    padding-right: $value;
+  }
+}
+
+/* Padding top and bottom */
+@each $size, $value in $padding-top-bottom {
+  .ptb-#{$size} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+}
+
+/* Padding left and right */
+@each $size, $value in $padding-left-right {
+  .plr-#{$size} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}

@@ -1,0 +1,9 @@
+//Basic
+@mixin property($property, $value) {
+  #{$property}: $value;
+}
+
+@mixin property-two($property1, $property2, $value) {
+  #{$property1}: $value;
+  #{$property2}: $value;
+}
