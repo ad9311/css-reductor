@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkolivegreen;
+}
+
+.square {
+  width: 100px;
+  height: 40px;
+  /* text-align: center; */
+}
+
+.color1 {
+  background-color: yellow;
+}
+
+.color2 {
+  background-color: plum;
+}
+
+.color3 {
+  background-color: grey;
+}
+
