@@ -1,0 +1,44 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+/* Display types */
+@each $display-type, $value in $display {
+  .d-#{$display-type} {
+    display: $value;
+  }
+}
+
+/* Flex direction */
+@each $flex-type, $value in $flex-direction {
+  .flex-#{$flex-type} {
+    flex-direction: $value;
+  }
+}
+
+/* Flex wrap */
+@each $flex-type, $value in $flex-wrap {
+  .flex-#{$flex-type} {
+    flex-wrap: $value;
+  }
+}
+
+/* Flex justify content */
+@each $flex-type, $value in $justify-content {
+  .justify-#{$flex-type} {
+    justify-content: $value;
+  }
+}
+
+/* Flex align items */
+@each $flex-type, $value in $align-items {
+  .align-items-#{$flex-type} {
+    align-items: $value;
+  }
+}
+
+/* Flex align content */
+@each $flex-type, $value in $align-content {
+  .align-content-#{$flex-type} {
+    align-content: $value;
+  }
+}

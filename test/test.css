@@ -3,11 +3,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: darkolivegreen;
+  font-size: 30px;
 }
 
 .square {
   width: 100px;
-  height: 40px;
+  height: 100px;
 }
 
 .color1 {
