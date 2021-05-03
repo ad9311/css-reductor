@@ -1,4 +1,4 @@
 //Basic
 @mixin property($property, $value) {
-  #{$property}: $value
+  #{$property}: $value;
 }
