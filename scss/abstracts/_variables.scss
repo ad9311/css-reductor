@@ -7,6 +7,15 @@ $size-4: 2.8125rem;
 $size-5: 3.75rem;
 $size-6: 6.25rem;
 
+// Break points
+$break-0: 0;
+$break-1: 420px;
+$break-2: 560px;
+$break-3: 768px;
+$break-4: 990px;
+$break-5: 1200px;
+$break-6: 1400px;
+
 // Margin and padding variables
 $margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 $margin-top: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
@@ -23,3 +32,13 @@ $padding-left: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4,
 $padding-right: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 $padding-top-bottom: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 $padding-left-right: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+
+// Display Types
+$display: ("none" none, "block" block, "inline" inline, "inline-block" inline-block, "flex" flex);
+
+// Flex Types
+$flex-direction: ("row" row, "column" column, "row-reverse" row-reverse, "column-reverse" column-reverse);
+$flex-wrap: ("wrap" wrap, "nowrap" nowrap, "wrap-reverse" wrap-reverse);
+$justify-content: ("start" flex-start, "end" flex-end, "center" center, "between" space-between, "around" space-around, "evenly" space-evenly);
+$align-items: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "baseline" baseline);
+$align-content: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "between" space-between, "around" space-around);
