@@ -571,6 +571,44 @@
   align-content: space-around;
 }
 
+/* Text alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Font size */
+.fs-1 {
+  font-size: 0.25rem;
+}
+
+.fs-2 {
+  font-size: 0.5rem;
+}
+
+.fs-3 {
+  font-size: 0.75rem;
+}
+
+.fs-4 {
+  font-size: 1rem;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.fs-6 {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 420px) {
   /* Display types */
   .d-none-1 {
@@ -694,7 +732,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 560px) {
   /* Display types */
   .d-none-2 {
@@ -818,7 +855,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 768px) {
   /* Display types */
   .d-none-3 {
@@ -942,7 +978,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 990px) {
   /* Display types */
   .d-none-4 {
@@ -1066,7 +1101,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 1200px) {
   /* Display types */
   .d-none-5 {
@@ -1190,7 +1224,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 1400px) {
   /* Display types */
   .d-none-6 {
@@ -1314,3 +1347,5 @@
     align-content: space-around;
   }
 }
+
+/*# sourceMappingURL=reductor.css.map */
