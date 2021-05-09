@@ -1,3 +1,7 @@
+// Containers
+$diff: 20px;
+$container-padding: 15px;
+
 // Size for Padding and Marging
 $size-0: 0;
 $size-1: 0.3125rem;
@@ -9,12 +13,12 @@ $size-6: 6.25rem;
 
 // Font size
 $font-base: 1rem;
-$font-1: $font-base * 0.25;
-$font-2: $font-base * 0.5;
-$font-3: $font-base * 0.75;
-$font-4: $font-base * 1;
-$font-5: $font-base * 1.25;
-$font-6: $font-base * 1.5;
+$font-1: $font-base * 0.9;
+$font-2: $font-base * 1.2;
+$font-3: $font-base * 1.5;
+$font-4: $font-base * 1.8;
+$font-5: $font-base * 2;
+$font-6: $font-base * 2.2;
 
 // Font weight
 $font-weight-1: 300;
@@ -57,6 +61,9 @@ $padding-left: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4,
 $padding-right: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 $padding-top-bottom: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 $padding-left-right: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
+
+// Containers
+$containers: ("1" $break-1, "2" $break-2, "3" $break-3, "4" $break-4, "5" $break-5, "6" $break-6);
 
 // Display Types
 $display: ("none" none, "block" block, "inline" inline, "inline-block" inline-block, "flex" flex);

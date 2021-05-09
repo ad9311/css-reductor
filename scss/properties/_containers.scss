@@ -1,0 +1,12 @@
+@use '../abstracts/variables' as *;
+
+/* Containers */
+@each $size, $value in $containers {
+  .con-#{$size} {
+    max-width: $value - $diff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $container-padding;
+    padding-right: $container-padding;
+  }
+}

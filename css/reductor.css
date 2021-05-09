@@ -449,6 +449,55 @@
   padding-right: 6.25rem;
 }
 
+/* Containers */
+.con-1 {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.con-2 {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.con-3 {
+  max-width: 748px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.con-4 {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.con-5 {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.con-6 {
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Display types */
 .d-none {
   display: none;
@@ -586,27 +635,27 @@
 
 /* Font size */
 .fs-1 {
-  font-size: 0.25rem;
+  font-size: 0.9rem;
 }
 
 .fs-2 {
-  font-size: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .fs-3 {
-  font-size: 0.75rem;
+  font-size: 1.5rem;
 }
 
 .fs-4 {
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 .fs-5 {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 .fs-6 {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 
 /* Font weight */
@@ -791,7 +840,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 560px) {
   /* Display types */
   .d-none-2 {
@@ -915,7 +963,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 768px) {
   /* Display types */
   .d-none-3 {
@@ -1039,7 +1086,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 990px) {
   /* Display types */
   .d-none-4 {
@@ -1163,7 +1209,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 1200px) {
   /* Display types */
   .d-none-5 {
@@ -1287,7 +1332,6 @@
     align-content: space-around;
   }
 }
-
 @media screen and (min-width: 1400px) {
   /* Display types */
   .d-none-6 {
@@ -1411,3 +1455,5 @@
     align-content: space-around;
   }
 }
+
+/*# sourceMappingURL=reductor.css.map */
