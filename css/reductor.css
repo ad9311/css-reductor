@@ -571,6 +571,103 @@
   align-content: space-around;
 }
 
+/* Text alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Font size */
+.fs-1 {
+  font-size: 0.25rem;
+}
+
+.fs-2 {
+  font-size: 0.5rem;
+}
+
+.fs-3 {
+  font-size: 0.75rem;
+}
+
+.fs-4 {
+  font-size: 1rem;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.fs-6 {
+  font-size: 1.5rem;
+}
+
+/* Font weight */
+.fw-1 {
+  font-weight: 300;
+}
+
+.fw-2 {
+  font-weight: 400;
+}
+
+.fw-3 {
+  font-weight: 500;
+}
+
+.fw-4 {
+  font-weight: 600;
+}
+
+.fw-5 {
+  font-weight: 700;
+}
+
+/* Line Height */
+.lh-normal {
+  line-height: normal;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.25;
+}
+
+.lh-3 {
+  line-height: 1.5;
+}
+
+.lh-4 {
+  line-height: 1.75;
+}
+
+.lh-5 {
+  line-height: 2;
+}
+
+/* text-decoration */
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-decoration-line {
+  text-decoration: line-through;
+}
+
 @media screen and (min-width: 420px) {
   /* Display types */
   .d-none-1 {

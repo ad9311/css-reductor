@@ -7,6 +7,31 @@ $size-4: 2.8125rem;
 $size-5: 3.75rem;
 $size-6: 6.25rem;
 
+// Font size
+$font-base: 1rem;
+$font-1: $font-base * 0.25;
+$font-2: $font-base * 0.5;
+$font-3: $font-base * 0.75;
+$font-4: $font-base * 1;
+$font-5: $font-base * 1.25;
+$font-6: $font-base * 1.5;
+
+// Font weight
+$font-weight-1: 300;
+$font-weight-2: 400;
+$font-weight-3: 500;
+$font-weight-4: 600;
+$font-weight-5: 700;
+
+// Line height
+$line-normal: normal;
+$line-base: 1;
+$line-1: $line-base * 1;
+$line-2: $line-base * 1.25;
+$line-3: $line-base * 1.5;
+$line-4: $line-base * 1.75;
+$line-5: $line-base * 2;
+
 // Break points
 $break-0: 0;
 $break-1: 420px;
@@ -42,3 +67,10 @@ $flex-wrap: ("wrap" wrap, "nowrap" nowrap, "wrap-reverse" wrap-reverse);
 $justify-content: ("start" flex-start, "end" flex-end, "center" center, "between" space-between, "around" space-around, "evenly" space-evenly);
 $align-items: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "baseline" baseline);
 $align-content: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "between" space-between, "around" space-around);
+
+//Text properties
+$text-align: ("left" left, "center" center, "right" right);
+$font-size: ("1" $font-1, "2" $font-2, "3" $font-3, "4" $font-4, "5" $font-5, "6" $font-6);
+$font-weight: ("1" $font-weight-1, "2" $font-weight-2, "3" $font-weight-3, "4" $font-weight-4, "5" $font-weight-5);
+$line-height: ("normal" $line-normal, "1" $line-1, "2" $line-2, "3" $line-3, "4" $line-4, "5" $line-5,);
+$text-decoration: ("underline" underline, "none" none, "line" line-through);

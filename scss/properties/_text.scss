@@ -1,0 +1,37 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+/* Text alignment */
+@each $position, $value in $text-align {
+  .text-#{$position} {
+    text-align: $value;
+  }
+}
+
+/* Font size */
+@each $size, $value in $font-size {
+  .fs-#{$size} {
+    font-size: $value;
+  }
+}
+
+/* Font weight */
+@each $weight, $value in $font-weight {
+  .fw-#{$weight} {
+    font-weight: $value;
+  }
+}
+
+/* Line Height */
+@each $heigh, $value in $line-height {
+  .lh-#{$heigh} {
+    line-height: $value;
+  }
+}
+
+/* text-decoration */
+@each $decoration, $value in $text-decoration {
+  .text-decoration-#{$decoration} {
+    text-decoration: $value;
+  }
+}
