@@ -840,6 +840,7 @@
     align-content: space-around;
   }
 }
+
 @media screen and (min-width: 560px) {
   /* Display types */
   .d-none-2 {
@@ -963,6 +964,7 @@
     align-content: space-around;
   }
 }
+
 @media screen and (min-width: 768px) {
   /* Display types */
   .d-none-3 {
@@ -1086,6 +1088,7 @@
     align-content: space-around;
   }
 }
+
 @media screen and (min-width: 990px) {
   /* Display types */
   .d-none-4 {
@@ -1209,6 +1212,7 @@
     align-content: space-around;
   }
 }
+
 @media screen and (min-width: 1200px) {
   /* Display types */
   .d-none-5 {
@@ -1332,6 +1336,7 @@
     align-content: space-around;
   }
 }
+
 @media screen and (min-width: 1400px) {
   /* Display types */
   .d-none-6 {
@@ -1455,5 +1460,3 @@
     align-content: space-around;
   }
 }
-
-/*# sourceMappingURL=reductor.css.map */

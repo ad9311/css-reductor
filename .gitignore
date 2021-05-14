@@ -5,3 +5,4 @@ test/
 *.scss.map
 *.sh
 .stylelintrc.json
+check-stylelintrc.sh
