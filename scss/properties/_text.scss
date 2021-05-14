@@ -1,5 +1,4 @@
 @use '../abstracts/variables' as *;
-@use '../abstracts/mixins' as *;
 
 /* Text alignment */
 @each $position, $value in $text-align {
