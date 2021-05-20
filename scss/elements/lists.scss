@@ -1,0 +1,17 @@
+@use '../abstracts/mixins' as *;
+
+ul {
+  @include property-two(margin, padding, 0);
+}
+
+li {
+  @include property(list-style, none);
+}
+
+.reset-ul {
+  @include property-two(margin, Padding, unset);
+}
+
+.reset-li {
+  @include property(list-style, circle);
+}
