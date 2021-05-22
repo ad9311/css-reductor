@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as *;
+
+/* Grid columns */
+@each $number, $value in $grid-column {
+  .grid-#{$number} {
+    display: grid;
+    grid-template-columns: $value;
+    grid-template-rows: auto;
+    column-gap: $container-padding;
+  }
+}

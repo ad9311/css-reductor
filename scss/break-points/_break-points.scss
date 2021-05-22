@@ -43,6 +43,16 @@
       align-content: $value;
     }
   }
+
+  /* Grid columns */
+  @each $number, $value in $grid-column {
+    .grid-#{$number}-1 {
+      display: grid;
+      grid-template-columns: $value;
+      grid-template-rows: auto;
+      column-gap: $container-padding;
+    }
+  }
 }
 
 @media screen and (min-width: $break-2) {
@@ -85,6 +95,16 @@
   @each $flex-type, $value in $align-content {
     .align-content-#{$flex-type}-2 {
       align-content: $value;
+    }
+  }
+
+  /* Grid columns */
+  @each $number, $value in $grid-column {
+    .grid-#{$number}-2 {
+      display: grid;
+      grid-template-columns: $value;
+      grid-template-rows: auto;
+      column-gap: $container-padding;
     }
   }
 }
@@ -131,6 +151,16 @@
       align-content: $value;
     }
   }
+
+  /* Grid columns */
+  @each $number, $value in $grid-column {
+    .grid-#{$number}-3 {
+      display: grid;
+      grid-template-columns: $value;
+      grid-template-rows: auto;
+      column-gap: $container-padding;
+    }
+  }
 }
 
 @media screen and (min-width: $break-4) {
@@ -173,6 +203,16 @@
   @each $flex-type, $value in $align-content {
     .align-content-#{$flex-type}-4 {
       align-content: $value;
+    }
+  }
+
+  /* Grid columns */
+  @each $number, $value in $grid-column {
+    .grid-#{$number}-4 {
+      display: grid;
+      grid-template-columns: $value;
+      grid-template-rows: auto;
+      column-gap: $container-padding;
     }
   }
 }
@@ -219,6 +259,16 @@
       align-content: $value;
     }
   }
+
+  /* Grid columns */
+  @each $number, $value in $grid-column {
+    .grid-#{$number}-5 {
+      display: grid;
+      grid-template-columns: $value;
+      grid-template-rows: auto;
+      column-gap: $container-padding;
+    }
+  }
 }
 
 @media screen and (min-width: $break-6) {
@@ -261,6 +311,16 @@
   @each $flex-type, $value in $align-content {
     .align-content-#{$flex-type}-6 {
       align-content: $value;
+    }
+  }
+
+  /* Grid columns */
+  @each $number, $value in $grid-column {
+    .grid-#{$number}-6 {
+      display: grid;
+      grid-template-columns: $value;
+      grid-template-rows: auto;
+      column-gap: $container-padding;
     }
   }
 }

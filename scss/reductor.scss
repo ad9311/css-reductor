@@ -1,6 +1,7 @@
 @use 'properties/margin-padding';
 @use 'properties/containers';
 @use 'properties/display';
+@use 'features/grid';
 @use 'properties/text';
-@use 'elements/lists';
+@use 'features/lists';
 @use 'break-points/break-points';
