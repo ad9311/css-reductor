@@ -81,12 +81,12 @@ $justify-content: ("start" flex-start, "end" flex-end, "center" center, "between
 $align-items: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "baseline" baseline);
 $align-content: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "between" space-between, "around" space-around);
 
-//Text properties
+// Text properties
 $text-align: ("left" left, "center" center, "right" right);
 $font-size: ("1" $font-1, "2" $font-2, "3" $font-3, "4" $font-4, "5" $font-5, "6" $font-6);
 $font-weight: ("1" $font-weight-1, "2" $font-weight-2, "3" $font-weight-3, "4" $font-weight-4, "5" $font-weight-5);
 $line-height: ("normal" $line-normal, "1" $line-1, "2" $line-2, "3" $line-3, "4" $line-4, "5" $line-5,);
 $text-decoration: ("underline" underline, "none" none, "line" line-through);
 
-//Grid
+// Grid
 $grid-column: ("one" $one-column, "two" $two-column, "three" $three-column, "four" $four-column);

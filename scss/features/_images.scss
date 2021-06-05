@@ -1,0 +1,7 @@
+@use '../abstracts/mixins' as *;
+
+/* Image Fluid*/
+.img-fluid {
+  @include property(max-width, 100%);
+  @include property(height, auto);
+}

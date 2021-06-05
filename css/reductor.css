@@ -764,6 +764,12 @@ li {
   list-style: circle;
 }
 
+/* Image Fluid*/
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 420px) {
   /* Display types */
   .d-none-1 {
