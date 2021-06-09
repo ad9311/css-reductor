@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+/* Foreground */
+@each $color, $value in $foreground-colors {
+  .text-#{$color} {
+    color: $value;
+  }
+}
+
+/* Background */
+@each $color, $value in $background-colors {
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}

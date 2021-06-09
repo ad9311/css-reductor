@@ -887,6 +887,72 @@
   text-decoration: line-through;
 }
 
+/* Foreground */
+.text-red {
+  color: #a40802;
+}
+
+.text-blue {
+  color: #1b70e0;
+}
+
+.text-yellow {
+  color: #ffcc00;
+}
+
+.text-green {
+  color: #6da744;
+}
+
+.text-cyan {
+  color: #40c0cb;
+}
+
+.text-gray {
+  color: #999;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+/* Background */
+.bg-red {
+  background-color: #a40802;
+}
+
+.bg-blue {
+  background-color: #1b70e0;
+}
+
+.bg-yellow {
+  background-color: #ffcc00;
+}
+
+.bg-green {
+  background-color: #6da744;
+}
+
+.bg-cyan {
+  background-color: #40c0cb;
+}
+
+.bg-gray {
+  background-color: #999;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
 /* Links */
 a {
   color: inherit;
