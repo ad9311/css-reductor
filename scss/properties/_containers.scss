@@ -6,6 +6,14 @@
     max-width: $value - $diff;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@each $size, $value in $containers {
+  .pcon-#{$size} {
+    max-width: $value - $diff;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: $container-padding;
     padding-right: $container-padding;
   }

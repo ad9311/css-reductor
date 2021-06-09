@@ -1,6 +1,7 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixins' as *;
 
+/* Break Point 1 */
 @media screen and (min-width: $break-1) {
   /* Display types */
   @each $display-type, $value in $display {
@@ -44,6 +45,13 @@
     }
   }
 
+  /* Position */
+  @each $pos, $value in $position {
+    .pos-#{$pos}-1 {
+      position: $value;
+    }
+  }
+
   /* Grid columns */
   @each $number, $value in $grid-column {
     .grid-#{$number}-1 {
@@ -55,6 +63,7 @@
   }
 }
 
+/* Break Point 2 */
 @media screen and (min-width: $break-2) {
   /* Display types */
   @each $display-type, $value in $display {
@@ -98,6 +107,13 @@
     }
   }
 
+  /* Position */
+  @each $pos, $value in $position {
+    .pos-#{$pos}-2 {
+      position: $value;
+    }
+  }
+
   /* Grid columns */
   @each $number, $value in $grid-column {
     .grid-#{$number}-2 {
@@ -109,6 +125,7 @@
   }
 }
 
+/* Break Point 3 */
 @media screen and (min-width: $break-3) {
   /* Display types */
   @each $display-type, $value in $display {
@@ -152,6 +169,13 @@
     }
   }
 
+  /* Position */
+  @each $pos, $value in $position {
+    .pos-#{$pos}-3 {
+      position: $value;
+    }
+  }
+
   /* Grid columns */
   @each $number, $value in $grid-column {
     .grid-#{$number}-3 {
@@ -163,6 +187,7 @@
   }
 }
 
+/* Break Point 4 */
 @media screen and (min-width: $break-4) {
   /* Display types */
   @each $display-type, $value in $display {
@@ -206,6 +231,13 @@
     }
   }
 
+  /* Position */
+  @each $pos, $value in $position {
+    .pos-#{$pos}-4 {
+      position: $value;
+    }
+  }
+
   /* Grid columns */
   @each $number, $value in $grid-column {
     .grid-#{$number}-4 {
@@ -217,6 +249,7 @@
   }
 }
 
+/* Break Point 5 */
 @media screen and (min-width: $break-5) {
   /* Display types */
   @each $display-type, $value in $display {
@@ -260,6 +293,13 @@
     }
   }
 
+  /* Position */
+  @each $pos, $value in $position {
+    .pos-#{$pos}-5 {
+      position: $value;
+    }
+  }
+
   /* Grid columns */
   @each $number, $value in $grid-column {
     .grid-#{$number}-5 {
@@ -271,6 +311,7 @@
   }
 }
 
+/* Break Point 6 */
 @media screen and (min-width: $break-6) {
   /* Display types */
   @each $display-type, $value in $display {
@@ -311,6 +352,13 @@
   @each $flex-type, $value in $align-content {
     .align-content-#{$flex-type}-6 {
       align-content: $value;
+    }
+  }
+
+  /* Position */
+  @each $pos, $value in $position {
+    .pos-#{$pos}-6 {
+      position: $value;
     }
   }
 

@@ -9,7 +9,7 @@ li {
 }
 
 .reset-ul {
-  @include property-two(margin, Padding, unset);
+  @include property-two(margin, padding, unset);
 }
 
 .reset-li {

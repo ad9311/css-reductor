@@ -1,0 +1,36 @@
+@use '../abstracts/variables' as *;
+
+/* Position */
+@each $pos, $value in $position {
+  .pos-#{$pos} {
+    position: $value;
+  }
+}
+
+/* Top */
+@each $pos, $value in $top {
+  .top-#{$pos} {
+    top: $value;
+  }
+}
+
+/* Bottom */
+@each $pos, $value in $bottom {
+  .bottom-#{$pos} {
+    bottom: $value;
+  }
+}
+
+/* Right */
+@each $pos, $value in $right {
+  .right-#{$pos} {
+    right: $value;
+  }
+}
+
+/* Left */
+@each $pos, $value in $left {
+  .left-#{$pos} {
+    left: $value;
+  }
+}

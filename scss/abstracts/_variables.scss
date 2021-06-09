@@ -51,6 +51,16 @@ $break-4: 990px;
 $break-5: 1200px;
 $break-6: 1400px;
 
+// Colors
+$red: #a40802;
+$blue: #1b70e0;
+$yellow: #ffcc00;
+$green: #59a80f;
+$cyan: #40c0cb;
+$gray: #999;
+$white: #fff;
+$black: #000;
+
 // Margin and padding variables
 $margin-all: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 $margin-top: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
@@ -81,6 +91,17 @@ $justify-content: ("start" flex-start, "end" flex-end, "center" center, "between
 $align-items: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "baseline" baseline);
 $align-content: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "between" space-between, "around" space-around);
 
+// Position
+$position: ("static" static, "relative" relative, "absolute" absolute, "fixed" fixed, "sticky" sticky);
+$pos-values: ("0" 0, "25" 25%, "50" 50%, "75" 75%, "100" 100%);
+$top: $pos-values;
+$bottom: $pos-values;
+$right: $pos-values;;
+$left: $pos-values;
+
+// Grid
+$grid-column: ("one" $one-column, "two" $two-column, "three" $three-column, "four" $four-column);
+
 // Text properties
 $text-align: ("left" left, "center" center, "right" right);
 $font-size: ("1" $font-1, "2" $font-2, "3" $font-3, "4" $font-4, "5" $font-5, "6" $font-6);
@@ -88,5 +109,7 @@ $font-weight: ("1" $font-weight-1, "2" $font-weight-2, "3" $font-weight-3, "4" $
 $line-height: ("normal" $line-normal, "1" $line-1, "2" $line-2, "3" $line-3, "4" $line-4, "5" $line-5,);
 $text-decoration: ("underline" underline, "none" none, "line" line-through);
 
-// Grid
-$grid-column: ("one" $one-column, "two" $two-column, "three" $three-column, "four" $four-column);
+// Colors
+$colors: ("red" $red, "blue" $blue, "yellow" $yellow, "green" $green, "cyan" $cyan, "gray" $gray, "white" $white, "black" $black);
+$foreground-colors: $colors;
+$background-colors: $colors;
