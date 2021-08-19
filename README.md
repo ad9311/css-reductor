@@ -36,7 +36,7 @@ This will compile the .scss file and make a .css file that you can use in your p
 
 - GitHub: [@ad9311](https://github.com/ad9311)
 - Twitter: [@adiaz9311](https://twitter.com/adiaz9311)
-- LinkedIn: [Ángel Díaz](https://linkedin.com/in/adiaz9311)
+- LinkedIn: [Ángel Díaz](https://www.linkedin.com/in/ad9311/)
 
 ## 🤝 Contributing
 
