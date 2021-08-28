@@ -61,6 +61,10 @@ $gray: #999;
 $white: #fff;
 $black: #000;
 
+// Transitions
+$duration: 0.2s;
+$ease-in-out: ease-in-out;
+
 // Margin and padding variables
 $sizes: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
 
@@ -114,6 +118,3 @@ $text-decoration: ("underline" underline, "none" none, "line" line-through);
 
 // Colors
 $colors: ("red" $red, "blue" $blue, "yellow" $yellow, "green" $green, "cyan" $cyan, "gray" $gray, "white" $white, "black" $black);
-
-$foreground-colors: $colors;
-$background-colors: $colors;

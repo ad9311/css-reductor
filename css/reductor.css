@@ -1007,6 +1007,87 @@
   background-color: #000;
 }
 
+/* Hover */
+.hover-red {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-red:hover {
+  color: #a40802;
+}
+
+.hover-blue {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-blue:hover {
+  color: #1b70e0;
+}
+
+.hover-yellow {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-yellow:hover {
+  color: #ffcc00;
+}
+
+.hover-green {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-green:hover {
+  color: #6da744;
+}
+
+.hover-cyan {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-cyan:hover {
+  color: #40c0cb;
+}
+
+.hover-gray {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-gray:hover {
+  color: #999;
+}
+
+.hover-white {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-black {
+  color: inherit;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-black:hover {
+  color: #000;
+}
+
 /* Links */
 a {
   color: inherit;

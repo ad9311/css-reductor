@@ -7,3 +7,8 @@
   #{$property1}: $value;
   #{$property2}: $value;
 }
+
+@mixin transition-hover($duration, $type) {
+  transition-duration: $duration;
+  transition-timing-function: $type;
+}
