@@ -1,373 +1,65 @@
 @use '../abstracts/variables' as *;
 
-/* Break Point 1 */
-@media screen and (min-width: $break-1) {
-  /* Display types */
-  @each $display-type, $value in $display {
-    .d-#{$display-type}-1 {
-      display: $value;
+@each $media, $break-point in $containers {
+  /* Break Point #{$media} */
+  @media screen and (min-width: $break-point) {
+    /* Display types */
+    @each $display-type, $value in $display {
+      .d-#{$display-type}-#{$media} {
+        display: $value;
+      }
     }
-  }
 
-  /* Flex direction */
-  @each $flex-type, $value in $flex-direction {
-    .flex-#{$flex-type}-1 {
-      flex-direction: $value;
+    /* Flex direction */
+    @each $flex-type, $value in $flex-direction {
+      .flex-#{$flex-type}-#{$media} {
+        flex-direction: $value;
+      }
     }
-  }
 
-  /* Flex wrap */
-  @each $flex-type, $value in $flex-wrap {
-    .flex-#{$flex-type}-1 {
-      flex-wrap: $value;
+    /* Flex wrap */
+    @each $flex-type, $value in $flex-wrap {
+      .flex-#{$flex-type}-#{$media} {
+        flex-wrap: $value;
+      }
     }
-  }
 
-  /* Flex justify content */
-  @each $flex-type, $value in $justify-content {
-    .justify-#{$flex-type}-1 {
-      justify-content: $value;
+    /* Flex justify content */
+    @each $flex-type, $value in $justify-content {
+      .justify-#{$flex-type}-#{$media} {
+        justify-content: $value;
+      }
     }
-  }
 
-  /* Flex align items */
-  @each $flex-type, $value in $align-items {
-    .align-items-#{$flex-type}-1 {
-      align-items: $value;
+    /* Flex align items */
+    @each $flex-type, $value in $align-items {
+      .align-items-#{$flex-type}-#{$media} {
+        align-items: $value;
+      }
     }
-  }
 
-  /* Flex align content */
-  @each $flex-type, $value in $align-content {
-    .align-content-#{$flex-type}-1 {
-      align-content: $value;
+        /* Flex align content */
+    @each $flex-type, $value in $align-content {
+      .align-content-#{$flex-type}-#{$media} {
+        align-content: $value;
+      }
     }
-  }
 
-  /* Position */
-  @each $pos, $value in $position {
-    .pos-#{$pos}-1 {
-      position: $value;
+    /* Position */
+    @each $pos, $value in $position {
+      .pos-#{$pos}-#{$media} {
+        position: $value;
+      }
     }
-  }
 
-  /* Grid columns */
-  @each $number, $value in $grid-column {
-    .grid-#{$number}-1 {
-      display: grid;
-      grid-template-columns: $value;
-      grid-template-rows: auto;
-      column-gap: $container-padding;
-    }
-  }
-}
-
-/* Break Point 2 */
-@media screen and (min-width: $break-2) {
-  /* Display types */
-  @each $display-type, $value in $display {
-    .d-#{$display-type}-2 {
-      display: $value;
-    }
-  }
-
-  /* Flex direction */
-  @each $flex-type, $value in $flex-direction {
-    .flex-#{$flex-type}-2 {
-      flex-direction: $value;
-    }
-  }
-
-  /* Flex wrap */
-  @each $flex-type, $value in $flex-wrap {
-    .flex-#{$flex-type}-2 {
-      flex-wrap: $value;
-    }
-  }
-
-  /* Flex justify content */
-  @each $flex-type, $value in $justify-content {
-    .justify-#{$flex-type}-2 {
-      justify-content: $value;
-    }
-  }
-
-  /* Flex align items */
-  @each $flex-type, $value in $align-items {
-    .align-items-#{$flex-type}-2 {
-      align-items: $value;
-    }
-  }
-
-  /* Flex align content */
-  @each $flex-type, $value in $align-content {
-    .align-content-#{$flex-type}-2 {
-      align-content: $value;
-    }
-  }
-
-  /* Position */
-  @each $pos, $value in $position {
-    .pos-#{$pos}-2 {
-      position: $value;
-    }
-  }
-
-  /* Grid columns */
-  @each $number, $value in $grid-column {
-    .grid-#{$number}-2 {
-      display: grid;
-      grid-template-columns: $value;
-      grid-template-rows: auto;
-      column-gap: $container-padding;
-    }
-  }
-}
-
-/* Break Point 3 */
-@media screen and (min-width: $break-3) {
-  /* Display types */
-  @each $display-type, $value in $display {
-    .d-#{$display-type}-3 {
-      display: $value;
-    }
-  }
-
-  /* Flex direction */
-  @each $flex-type, $value in $flex-direction {
-    .flex-#{$flex-type}-3 {
-      flex-direction: $value;
-    }
-  }
-
-  /* Flex wrap */
-  @each $flex-type, $value in $flex-wrap {
-    .flex-#{$flex-type}-3 {
-      flex-wrap: $value;
-    }
-  }
-
-  /* Flex justify content */
-  @each $flex-type, $value in $justify-content {
-    .justify-#{$flex-type}-3 {
-      justify-content: $value;
-    }
-  }
-
-  /* Flex align items */
-  @each $flex-type, $value in $align-items {
-    .align-items-#{$flex-type}-3 {
-      align-items: $value;
-    }
-  }
-
-  /* Flex align content */
-  @each $flex-type, $value in $align-content {
-    .align-content-#{$flex-type}-3 {
-      align-content: $value;
-    }
-  }
-
-  /* Position */
-  @each $pos, $value in $position {
-    .pos-#{$pos}-3 {
-      position: $value;
-    }
-  }
-
-  /* Grid columns */
-  @each $number, $value in $grid-column {
-    .grid-#{$number}-3 {
-      display: grid;
-      grid-template-columns: $value;
-      grid-template-rows: auto;
-      column-gap: $container-padding;
-    }
-  }
-}
-
-/* Break Point 4 */
-@media screen and (min-width: $break-4) {
-  /* Display types */
-  @each $display-type, $value in $display {
-    .d-#{$display-type}-4 {
-      display: $value;
-    }
-  }
-
-  /* Flex direction */
-  @each $flex-type, $value in $flex-direction {
-    .flex-#{$flex-type}-4 {
-      flex-direction: $value;
-    }
-  }
-
-  /* Flex wrap */
-  @each $flex-type, $value in $flex-wrap {
-    .flex-#{$flex-type}-4 {
-      flex-wrap: $value;
-    }
-  }
-
-  /* Flex justify content */
-  @each $flex-type, $value in $justify-content {
-    .justify-#{$flex-type}-4 {
-      justify-content: $value;
-    }
-  }
-
-  /* Flex align items */
-  @each $flex-type, $value in $align-items {
-    .align-items-#{$flex-type}-4 {
-      align-items: $value;
-    }
-  }
-
-  /* Flex align content */
-  @each $flex-type, $value in $align-content {
-    .align-content-#{$flex-type}-4 {
-      align-content: $value;
-    }
-  }
-
-  /* Position */
-  @each $pos, $value in $position {
-    .pos-#{$pos}-4 {
-      position: $value;
-    }
-  }
-
-  /* Grid columns */
-  @each $number, $value in $grid-column {
-    .grid-#{$number}-4 {
-      display: grid;
-      grid-template-columns: $value;
-      grid-template-rows: auto;
-      column-gap: $container-padding;
-    }
-  }
-}
-
-/* Break Point 5 */
-@media screen and (min-width: $break-5) {
-  /* Display types */
-  @each $display-type, $value in $display {
-    .d-#{$display-type}-5 {
-      display: $value;
-    }
-  }
-
-  /* Flex direction */
-  @each $flex-type, $value in $flex-direction {
-    .flex-#{$flex-type}-5 {
-      flex-direction: $value;
-    }
-  }
-
-  /* Flex wrap */
-  @each $flex-type, $value in $flex-wrap {
-    .flex-#{$flex-type}-5 {
-      flex-wrap: $value;
-    }
-  }
-
-  /* Flex justify content */
-  @each $flex-type, $value in $justify-content {
-    .justify-#{$flex-type}-5 {
-      justify-content: $value;
-    }
-  }
-
-  /* Flex align items */
-  @each $flex-type, $value in $align-items {
-    .align-items-#{$flex-type}-5 {
-      align-items: $value;
-    }
-  }
-
-  /* Flex align content */
-  @each $flex-type, $value in $align-content {
-    .align-content-#{$flex-type}-5 {
-      align-content: $value;
-    }
-  }
-
-  /* Position */
-  @each $pos, $value in $position {
-    .pos-#{$pos}-5 {
-      position: $value;
-    }
-  }
-
-  /* Grid columns */
-  @each $number, $value in $grid-column {
-    .grid-#{$number}-5 {
-      display: grid;
-      grid-template-columns: $value;
-      grid-template-rows: auto;
-      column-gap: $container-padding;
-    }
-  }
-}
-
-/* Break Point 6 */
-@media screen and (min-width: $break-6) {
-  /* Display types */
-  @each $display-type, $value in $display {
-    .d-#{$display-type}-6 {
-      display: $value;
-    }
-  }
-
-  /* Flex direction */
-  @each $flex-type, $value in $flex-direction {
-    .flex-#{$flex-type}-6 {
-      flex-direction: $value;
-    }
-  }
-
-  /* Flex wrap */
-  @each $flex-type, $value in $flex-wrap {
-    .flex-#{$flex-type}-6 {
-      flex-wrap: $value;
-    }
-  }
-
-  /* Flex justify content */
-  @each $flex-type, $value in $justify-content {
-    .justify-#{$flex-type}-6 {
-      justify-content: $value;
-    }
-  }
-
-  /* Flex align items */
-  @each $flex-type, $value in $align-items {
-    .align-items-#{$flex-type}-6 {
-      align-items: $value;
-    }
-  }
-
-  /* Flex align content */
-  @each $flex-type, $value in $align-content {
-    .align-content-#{$flex-type}-6 {
-      align-content: $value;
-    }
-  }
-
-  /* Position */
-  @each $pos, $value in $position {
-    .pos-#{$pos}-6 {
-      position: $value;
-    }
-  }
-
-  /* Grid columns */
-  @each $number, $value in $grid-column {
-    .grid-#{$number}-6 {
-      display: grid;
-      grid-template-columns: $value;
-      grid-template-rows: auto;
-      column-gap: $container-padding;
+    /* Grid columns */
+    @each $number, $value in $grid-column {
+      .grid-#{$number}-#{$media} {
+        display: grid;
+        grid-template-columns: $value;
+        grid-template-rows: auto;
+        column-gap: $container-padding;
+      }
     }
   }
 }
