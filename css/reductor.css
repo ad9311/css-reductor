@@ -656,6 +656,60 @@
   align-content: space-around;
 }
 
+/* Flex */
+.flex-0 {
+  flex: 0;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+/* Align-Self */
+.align-auto {
+  align-self: auto;
+}
+
+.align-start {
+  align-self: flex-start;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.align-stretch {
+  align-self: stretch;
+}
+
+.align-baseline {
+  align-self: baseline;
+}
+
 /* Position */
 .pos-static {
   position: static;

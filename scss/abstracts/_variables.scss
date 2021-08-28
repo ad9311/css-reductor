@@ -92,6 +92,7 @@ $flex-wrap: ("wrap" wrap, "nowrap" nowrap, "wrap-reverse" wrap-reverse);
 $justify-content: ("start" flex-start, "end" flex-end, "center" center, "between" space-between, "around" space-around, "evenly" space-evenly);
 $align-items: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "baseline" baseline);
 $align-content: ("start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "between" space-between, "around" space-around);
+$self-align: ("auto" auto, "start" flex-start, "end" flex-end, "center" center, "stretch" stretch, "baseline" baseline);
 
 // Position
 $position: ("static" static, "relative" relative, "absolute" absolute, "fixed" fixed, "sticky" sticky);

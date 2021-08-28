@@ -41,3 +41,17 @@
     align-content: $value;
   }
 }
+
+/* Flex */
+@for $i from 0 through 6 {
+  .flex-#{$i} {
+    flex: $i;
+  }
+}
+
+/* Align-Self */
+@each $flex-type, $value in $self-align {
+  .align-#{$flex-type} {
+    align-self: $value;
+  }
+}
