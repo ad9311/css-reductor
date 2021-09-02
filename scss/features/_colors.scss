@@ -19,6 +19,7 @@
 @each $color, $value in $colors {
   .hover-#{$color} {
     color: inherit;
+
     @include transition-hover($duration, $ease-in-out);
   }
 

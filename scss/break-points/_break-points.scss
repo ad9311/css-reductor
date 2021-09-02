@@ -38,7 +38,7 @@
       }
     }
 
-        /* Flex align content */
+    /* Flex align content */
     @each $flex-type, $value in $align-content {
       .align-content-#{$flex-type}-#{$media} {
         align-content: $value;

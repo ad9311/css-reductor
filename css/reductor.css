@@ -951,7 +951,7 @@
 }
 
 .text-yellow {
-  color: #ffcc00;
+  color: #fc0;
 }
 
 .text-green {
@@ -984,7 +984,7 @@
 }
 
 .bg-yellow {
-  background-color: #ffcc00;
+  background-color: #fc0;
 }
 
 .bg-green {
@@ -1035,7 +1035,7 @@
 }
 
 .hover-yellow:hover {
-  color: #ffcc00;
+  color: #fc0;
 }
 
 .hover-green {
@@ -1296,6 +1296,7 @@ li {
     column-gap: 15px;
   }
 }
+
 /* Break Point 2 */
 @media screen and (min-width: 560px) {
   /* Display types */
@@ -1470,6 +1471,7 @@ li {
     column-gap: 15px;
   }
 }
+
 /* Break Point 3 */
 @media screen and (min-width: 768px) {
   /* Display types */
@@ -1644,6 +1646,7 @@ li {
     column-gap: 15px;
   }
 }
+
 /* Break Point 4 */
 @media screen and (min-width: 990px) {
   /* Display types */
@@ -1818,6 +1821,7 @@ li {
     column-gap: 15px;
   }
 }
+
 /* Break Point 5 */
 @media screen and (min-width: 1200px) {
   /* Display types */
@@ -1992,6 +1996,7 @@ li {
     column-gap: 15px;
   }
 }
+
 /* Break Point 6 */
 @media screen and (min-width: 1400px) {
   /* Display types */
@@ -2166,5 +2171,3 @@ li {
     column-gap: 15px;
   }
 }
-
-/*# sourceMappingURL=reductor.css.map */

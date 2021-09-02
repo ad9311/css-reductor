@@ -54,7 +54,7 @@ $break-6: 1400px;
 // Colors
 $red: #a40802;
 $blue: #1b70e0;
-$yellow: #ffcc00;
+$yellow: #fc0;
 $green: #6da744;
 $cyan: #40c0cb;
 $gray: #999;
@@ -103,7 +103,7 @@ $position: ("static" static, "relative" relative, "absolute" absolute, "fixed" f
 $pos-values: ("0" 0, "25" 25%, "50" 50%, "75" 75%, "100" 100%);
 $top: $pos-values;
 $bottom: $pos-values;
-$right: $pos-values;;
+$right: $pos-values;
 $left: $pos-values;
 
 // Grid
