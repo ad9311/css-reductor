@@ -942,6 +942,10 @@
 }
 
 /* Foreground */
+.text-transparent {
+  color: transparent;
+}
+
 .text-red {
   color: #a70702;
 }
@@ -975,6 +979,10 @@
 }
 
 /* Background */
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-red {
   background-color: #a70702;
 }
