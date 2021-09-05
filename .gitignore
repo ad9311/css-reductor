@@ -1,8 +1,4 @@
 .sass-cache/
 test/
-*.css.map
 *.sass.map
 *.scss.map
-*.sh
-.stylelintrc.json
-check-stylelintrc.sh
