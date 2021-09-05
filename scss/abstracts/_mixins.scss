@@ -1,4 +1,4 @@
-//Basic
+//Generic
 @mixin property($property, $value) {
   #{$property}: $value;
 }
@@ -8,6 +8,7 @@
   #{$property2}: $value;
 }
 
+//Transition-Hover
 @mixin transition-hover($duration, $type) {
   transition-duration: $duration;
   transition-timing-function: $type;

@@ -1,6 +1,6 @@
 // Containers
 $diff: 20px;
-$container-padding: 15px;
+$container-padding: 1rem;
 
 // Size for Padding and Marging
 $size-0: 0;
@@ -52,14 +52,14 @@ $break-5: 1200px;
 $break-6: 1400px;
 
 // Colors
-$red: #a40802;
-$blue: #1b70e0;
-$yellow: #fc0;
-$green: #6da744;
-$cyan: #40c0cb;
-$gray: #999;
-$white: #fff;
-$black: #000;
+$red: hsl(2, 98%, 33%);
+$blue: hsl(214, 78%, 49%);
+$yellow: hsl(48, 100%, 50%);
+$green: hsl(95, 42%, 46%);
+$cyan: hsl(185, 57%, 52%);
+$gray: hsl(0, 0%, 60%);
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
 
 // Transitions
 $duration: 0.2s;
