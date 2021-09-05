@@ -928,7 +928,7 @@
   line-height: 2;
 }
 
-/* text-decoration */
+/* Text Decoration */
 .text-decoration-underline {
   text-decoration: underline;
 }
@@ -939,6 +939,19 @@
 
 .text-decoration-line {
   text-decoration: line-through;
+}
+
+/* Text Overflow */
+.text-ov-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ov-clip {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
 }
 
 /* Foreground */
@@ -955,7 +968,7 @@
 }
 
 .text-yellow {
-  color: #ffcc00;
+  color: #fc0;
 }
 
 .text-green {
@@ -967,7 +980,7 @@
 }
 
 .text-gray {
-  color: #999999;
+  color: #999;
 }
 
 .text-white {
@@ -992,7 +1005,7 @@
 }
 
 .bg-yellow {
-  background-color: #ffcc00;
+  background-color: #fc0;
 }
 
 .bg-green {
@@ -1004,7 +1017,7 @@
 }
 
 .bg-gray {
-  background-color: #999999;
+  background-color: #999;
 }
 
 .bg-white {
@@ -1019,7 +1032,7 @@
 .hover-red {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-red:hover {
@@ -1029,7 +1042,7 @@
 .hover-blue {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-blue:hover {
@@ -1039,17 +1052,17 @@
 .hover-yellow {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-yellow:hover {
-  color: #ffcc00;
+  color: #fc0;
 }
 
 .hover-green {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-green:hover {
@@ -1059,7 +1072,7 @@
 .hover-cyan {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-cyan:hover {
@@ -1069,17 +1082,17 @@
 .hover-gray {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-gray:hover {
-  color: #999999;
+  color: #999;
 }
 
 .hover-white {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-white:hover {
@@ -1089,7 +1102,7 @@
 .hover-black {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-black:hover {
@@ -1304,6 +1317,7 @@ li {
     column-gap: 1rem;
   }
 }
+
 /* Break Point 2 */
 @media screen and (min-width: 560px) {
   /* Display types */
@@ -1478,6 +1492,7 @@ li {
     column-gap: 1rem;
   }
 }
+
 /* Break Point 3 */
 @media screen and (min-width: 768px) {
   /* Display types */
@@ -1652,6 +1667,7 @@ li {
     column-gap: 1rem;
   }
 }
+
 /* Break Point 4 */
 @media screen and (min-width: 990px) {
   /* Display types */
@@ -1826,6 +1842,7 @@ li {
     column-gap: 1rem;
   }
 }
+
 /* Break Point 5 */
 @media screen and (min-width: 1200px) {
   /* Display types */
@@ -2000,6 +2017,7 @@ li {
     column-gap: 1rem;
   }
 }
+
 /* Break Point 6 */
 @media screen and (min-width: 1400px) {
   /* Display types */
@@ -2174,5 +2192,3 @@ li {
     column-gap: 1rem;
   }
 }
-
-/*# sourceMappingURL=reductor.css.map */

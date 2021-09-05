@@ -28,9 +28,22 @@
   }
 }
 
-/* text-decoration */
+/* Text Decoration */
 @each $decoration, $value in $text-decoration {
   .text-decoration-#{$decoration} {
     text-decoration: $value;
   }
+}
+
+/* Text Overflow */
+.text-ov-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ov-clip {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
 }

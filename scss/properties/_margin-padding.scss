@@ -17,42 +17,42 @@
 }
 
 /* Margin all sides */
-@each $size, $value in $margin-all {
+@each $size, $value in $sizes {
   .m-#{$size} {
     margin: $value;
   }
 }
 
 /* Margin top */
-@each $size, $value in $margin-top {
+@each $size, $value in $sizes {
   .mt-#{$size} {
     margin-top: $value;
   }
 }
 
 /* Margin bottom */
-@each $size, $value in $margin-bottom {
+@each $size, $value in $sizes {
   .mb-#{$size} {
     margin-bottom: $value;
   }
 }
 
 /* Margin left */
-@each $size, $value in $margin-left {
+@each $size, $value in $sizes {
   .ml-#{$size} {
     margin-left: $value;
   }
 }
 
 /* Margin right */
-@each $size, $value in $margin-right {
+@each $size, $value in $sizes {
   .mr-#{$size} {
     margin-right: $value;
   }
 }
 
 /* Margin top and bottom */
-@each $size, $value in $margin-top-bottom {
+@each $size, $value in $sizes {
   .mtb-#{$size} {
     margin-top: $value;
     margin-bottom: $value;
@@ -60,7 +60,7 @@
 }
 
 /* Margin left and right */
-@each $size, $value in $margin-left-right {
+@each $size, $value in $sizes {
   .mlr-#{$size} {
     margin-left: $value;
     margin-right: $value;
@@ -68,42 +68,42 @@
 }
 
 /* Padding all sides */
-@each $size, $value in $padding-all {
+@each $size, $value in $sizes {
   .p-#{$size} {
     padding: $value;
   }
 }
 
 /* Padding top */
-@each $size, $value in $padding-top {
+@each $size, $value in $sizes {
   .pt-#{$size} {
     padding-top: $value;
   }
 }
 
 /* Padding bottom */
-@each $size, $value in $padding-bottom {
+@each $size, $value in $sizes {
   .pb-#{$size} {
     padding-bottom: $value;
   }
 }
 
 /* Padding left */
-@each $size, $value in $padding-left {
+@each $size, $value in $sizes {
   .pl-#{$size} {
     padding-left: $value;
   }
 }
 
 /* Padding right */
-@each $size, $value in $padding-right {
+@each $size, $value in $sizes {
   .pr-#{$size} {
     padding-right: $value;
   }
 }
 
 /* Padding top and bottom */
-@each $size, $value in $padding-top-bottom {
+@each $size, $value in $sizes {
   .ptb-#{$size} {
     padding-top: $value;
     padding-bottom: $value;
@@ -111,7 +111,7 @@
 }
 
 /* Padding left and right */
-@each $size, $value in $padding-left-right {
+@each $size, $value in $sizes {
   .plr-#{$size} {
     padding-left: $value;
     padding-right: $value;

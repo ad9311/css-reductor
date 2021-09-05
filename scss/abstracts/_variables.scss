@@ -62,28 +62,12 @@ $gray: hsl(0, 0%, 60%);
 $white: hsl(0, 0%, 100%);
 $black: hsl(0, 0%, 0%);
 
-// Transitions
+// Transitions-Hover
 $duration: 0.2s;
-$ease-in-out: ease-in-out;
+$ease: ease;
 
 // Margin and padding variables
 $sizes: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $size-5, "6" $size-6);
-
-$margin-all: $sizes;
-$margin-top: $sizes;
-$margin-bottom: $sizes;
-$margin-left: $sizes;
-$margin-right: $sizes;
-$margin-top-bottom: $sizes;
-$margin-left-right: $sizes;
-
-$padding-all: $sizes;
-$padding-top: $sizes;
-$padding-bottom: $sizes;
-$padding-left: $sizes;
-$padding-right: $sizes;
-$padding-top-bottom: $sizes;
-$padding-left-right: $sizes;
 
 // Containers
 $containers: ("1" $break-1, "2" $break-2, "3" $break-3, "4" $break-4, "5" $break-5, "6" $break-6);

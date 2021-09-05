@@ -27,8 +27,8 @@
 @each $color, $value in $colors {
   .hover-#{$color} {
     color: inherit;
-
-    @include transition-hover($duration, $ease-in-out);
+    transition-duration: $duration;
+    transition-timing-function: $ease;
   }
 
   .hover-#{$color}:hover {
