@@ -490,48 +490,48 @@
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pcon-2 {
   max-width: 540px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pcon-3 {
   max-width: 748px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pcon-4 {
   max-width: 970px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pcon-5 {
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pcon-6 {
   max-width: 1380px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Display types */
@@ -820,28 +820,28 @@
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  column-gap: 15px;
+  column-gap: 1rem;
 }
 
 .grid-two {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  column-gap: 15px;
+  column-gap: 1rem;
 }
 
 .grid-three {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
-  column-gap: 15px;
+  column-gap: 1rem;
 }
 
 .grid-four {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto;
-  column-gap: 15px;
+  column-gap: 1rem;
 }
 
 /* Text alignment */
@@ -928,7 +928,7 @@
   line-height: 2;
 }
 
-/* text-decoration */
+/* Text Decoration */
 .text-decoration-underline {
   text-decoration: underline;
 }
@@ -941,13 +941,30 @@
   text-decoration: line-through;
 }
 
+/* Text Overflow */
+.text-ov-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ov-clip {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+
 /* Foreground */
+.text-transparent {
+  color: transparent;
+}
+
 .text-red {
-  color: #a40802;
+  color: #a70702;
 }
 
 .text-blue {
-  color: #1b70e0;
+  color: #1b70de;
 }
 
 .text-yellow {
@@ -959,7 +976,7 @@
 }
 
 .text-cyan {
-  color: #40c0cb;
+  color: #3fbfca;
 }
 
 .text-gray {
@@ -967,20 +984,24 @@
 }
 
 .text-white {
-  color: #fff;
+  color: white;
 }
 
 .text-black {
-  color: #000;
+  color: black;
 }
 
 /* Background */
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-red {
-  background-color: #a40802;
+  background-color: #a70702;
 }
 
 .bg-blue {
-  background-color: #1b70e0;
+  background-color: #1b70de;
 }
 
 .bg-yellow {
@@ -992,7 +1013,7 @@
 }
 
 .bg-cyan {
-  background-color: #40c0cb;
+  background-color: #3fbfca;
 }
 
 .bg-gray {
@@ -1000,38 +1021,38 @@
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: white;
 }
 
 .bg-black {
-  background-color: #000;
+  background-color: black;
 }
 
 /* Hover */
 .hover-red {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-red:hover {
-  color: #a40802;
+  color: #a70702;
 }
 
 .hover-blue {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-blue:hover {
-  color: #1b70e0;
+  color: #1b70de;
 }
 
 .hover-yellow {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-yellow:hover {
@@ -1041,7 +1062,7 @@
 .hover-green {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-green:hover {
@@ -1051,17 +1072,17 @@
 .hover-cyan {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-cyan:hover {
-  color: #40c0cb;
+  color: #3fbfca;
 }
 
 .hover-gray {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-gray:hover {
@@ -1071,21 +1092,21 @@
 .hover-white {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-white:hover {
-  color: #fff;
+  color: white;
 }
 
 .hover-black {
   color: inherit;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .hover-black:hover {
-  color: #000;
+  color: black;
 }
 
 /* Links */
@@ -1272,28 +1293,28 @@ li {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-two-1 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-three-1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-four-1 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 }
 
@@ -1447,28 +1468,28 @@ li {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-two-2 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-three-2 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-four-2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 }
 
@@ -1622,28 +1643,28 @@ li {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-two-3 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-three-3 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-four-3 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 }
 
@@ -1797,28 +1818,28 @@ li {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-two-4 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-three-4 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-four-4 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 }
 
@@ -1972,28 +1993,28 @@ li {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-two-5 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-three-5 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-four-5 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 }
 
@@ -2147,27 +2168,27 @@ li {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-two-6 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-three-6 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 
   .grid-four-6 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    column-gap: 15px;
+    column-gap: 1rem;
   }
 }

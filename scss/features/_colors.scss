@@ -2,6 +2,10 @@
 @use '../abstracts/mixins' as *;
 
 /* Foreground */
+.text-transparent {
+  color: $transparent;
+}
+
 @each $color, $value in $colors {
   .text-#{$color} {
     color: $value;
@@ -9,6 +13,10 @@
 }
 
 /* Background */
+.bg-transparent {
+  background-color: $transparent;
+}
+
 @each $color, $value in $colors {
   .bg-#{$color} {
     background-color: $value;
@@ -19,8 +27,8 @@
 @each $color, $value in $colors {
   .hover-#{$color} {
     color: inherit;
-
-    @include transition-hover($duration, $ease-in-out);
+    transition-duration: $duration;
+    transition-timing-function: $ease;
   }
 
   .hover-#{$color}:hover {
