@@ -1,8 +1,8 @@
 # CSS Reductor
 
-> Basic css framework to handle element positioning.
+> Basic css framework to handle element positioning and responsiveness.
 
-CSS Redcutor is a simple framework sort of like bootstrap to handle element positioning using css classes.
+CSS Redcutor is a simple framework sort of like Bootstrap to handle element positioning using css classes. This project does not intend to replace Bootstrap or any major css framework (yet).
 
 ## Built With
 
@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple steps using your terminal
   cd css-reductor
 ```
 
-Now in order to have the reductor.css file compiled do the following:
+Now, in order to have the reductor.css file compiled do the following:
 
 ```
   sass scss/reductor.scss css/reductor.css
@@ -28,7 +28,7 @@ This will compile the .scss file and make a .css file that you can use in your p
 
 ### Prerequisites
 
-- [SASS](https://sass-lang.com/install)
+- To modify the project, it's best to use [Sass](https://sass-lang.com/install).
 
 ## Author
 
