@@ -71,6 +71,8 @@ $sizes: ("0" $size-0, "1" $size-1, "2" $size-2, "3" $size-3, "4" $size-4, "5" $s
 
 // Containers
 $containers: ("1" $break-1, "2" $break-2, "3" $break-3, "4" $break-4, "5" $break-5, "6" $break-6);
+$percentage-widths: ("25" 25%, "50" 50%, "75" 75%, "100" 100%);
+$viewport-widths: ("25vw" 25vw, "50vw" 50vw, "75vw" 75vw, "100vw" 100vw);
 
 // Display Types
 $display: ("none" none, "block" block, "inline" inline, "inline-block" inline-block, "flex" flex);

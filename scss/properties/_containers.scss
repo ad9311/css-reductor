@@ -18,3 +18,17 @@
     padding-right: $container-padding;
   }
 }
+
+/* Widths */
+
+@each $size, $value in $percentage-widths {
+  .w-#{$size} {
+    width: $value;
+  }
+}
+
+@each $size, $value in $viewport-widths {
+  .w-#{$size} {
+    width: $value;
+  }
+}
