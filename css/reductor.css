@@ -534,6 +534,39 @@
   padding-right: 1rem;
 }
 
+/* Widths */
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-25vw {
+  width: 25vw;
+}
+
+.w-50vw {
+  width: 50vw;
+}
+
+.w-75vw {
+  width: 75vw;
+}
+
+.w-100vw {
+  width: 100vw;
+}
+
 /* Display types */
 .d-none {
   display: none;
