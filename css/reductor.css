@@ -878,25 +878,25 @@
 }
 
 /* Grid columns No Gutter */
-.grid-one-ngs {
+.grid-one-ng {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
 
-.grid-two-ngs {
+.grid-two-ng {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
 }
 
-.grid-three-ngs {
+.grid-three-ng {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
 }
 
-.grid-four-ngs {
+.grid-four-ng {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto;
@@ -1376,25 +1376,25 @@ li {
   }
 
   /* Grid columns No Gutter */
-  .grid-one-ngs {
+  .grid-one-ng {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .grid-two-ngs {
+  .grid-two-ng {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-three-ngs {
+  .grid-three-ng {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-four-ngs {
+  .grid-four-ng {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
@@ -1576,25 +1576,25 @@ li {
   }
 
   /* Grid columns No Gutter */
-  .grid-one-ngs {
+  .grid-one-ng {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .grid-two-ngs {
+  .grid-two-ng {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-three-ngs {
+  .grid-three-ng {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-four-ngs {
+  .grid-four-ng {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
@@ -1776,25 +1776,25 @@ li {
   }
 
   /* Grid columns No Gutter */
-  .grid-one-ngs {
+  .grid-one-ng {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .grid-two-ngs {
+  .grid-two-ng {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-three-ngs {
+  .grid-three-ng {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-four-ngs {
+  .grid-four-ng {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
@@ -1976,25 +1976,25 @@ li {
   }
 
   /* Grid columns No Gutter */
-  .grid-one-ngs {
+  .grid-one-ng {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .grid-two-ngs {
+  .grid-two-ng {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-three-ngs {
+  .grid-three-ng {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-four-ngs {
+  .grid-four-ng {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
@@ -2176,25 +2176,25 @@ li {
   }
 
   /* Grid columns No Gutter */
-  .grid-one-ngs {
+  .grid-one-ng {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .grid-two-ngs {
+  .grid-two-ng {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-three-ngs {
+  .grid-three-ng {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-four-ngs {
+  .grid-four-ng {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
@@ -2376,25 +2376,25 @@ li {
   }
 
   /* Grid columns No Gutter */
-  .grid-one-ngs {
+  .grid-one-ng {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .grid-two-ngs {
+  .grid-two-ng {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-three-ngs {
+  .grid-three-ng {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
   }
 
-  .grid-four-ngs {
+  .grid-four-ng {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;

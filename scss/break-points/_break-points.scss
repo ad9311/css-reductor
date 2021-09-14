@@ -64,7 +64,7 @@
 
     /* Grid columns No Gutter */
     @each $number, $value in $grid-column {
-      .grid-#{$number}-ngs {
+      .grid-#{$number}-ng {
         display: grid;
         grid-template-columns: $value;
         grid-template-rows: auto;
