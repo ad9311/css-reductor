@@ -61,5 +61,14 @@
         column-gap: $container-padding;
       }
     }
+
+    /* Grid columns No Gutter */
+    @each $number, $value in $grid-column {
+      .grid-#{$number}-ngs {
+        display: grid;
+        grid-template-columns: $value;
+        grid-template-rows: auto;
+      }
+    }
   }
 }

@@ -877,6 +877,31 @@
   column-gap: 1rem;
 }
 
+/* Grid columns No Gutter */
+.grid-one-ngs {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.grid-two-ngs {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.grid-three-ngs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+.grid-four-ngs {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+}
+
 /* Text alignment */
 .text-left {
   text-align: left;
@@ -1349,6 +1374,31 @@ li {
     grid-template-rows: auto;
     column-gap: 1rem;
   }
+
+  /* Grid columns No Gutter */
+  .grid-one-ngs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-two-ngs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-three-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-four-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
 }
 
 /* Break Point 2 */
@@ -1523,6 +1573,31 @@ li {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     column-gap: 1rem;
+  }
+
+  /* Grid columns No Gutter */
+  .grid-one-ngs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-two-ngs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-three-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-four-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
   }
 }
 
@@ -1699,6 +1774,31 @@ li {
     grid-template-rows: auto;
     column-gap: 1rem;
   }
+
+  /* Grid columns No Gutter */
+  .grid-one-ngs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-two-ngs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-three-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-four-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
 }
 
 /* Break Point 4 */
@@ -1873,6 +1973,31 @@ li {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     column-gap: 1rem;
+  }
+
+  /* Grid columns No Gutter */
+  .grid-one-ngs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-two-ngs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-three-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-four-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
   }
 }
 
@@ -2049,6 +2174,31 @@ li {
     grid-template-rows: auto;
     column-gap: 1rem;
   }
+
+  /* Grid columns No Gutter */
+  .grid-one-ngs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-two-ngs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-three-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-four-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
 }
 
 /* Break Point 6 */
@@ -2223,5 +2373,30 @@ li {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     column-gap: 1rem;
+  }
+
+  /* Grid columns No Gutter */
+  .grid-one-ngs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-two-ngs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-three-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-four-ngs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
   }
 }
