@@ -4,8 +4,8 @@
 @each $number, $value in $grid-column {
   .grid-#{$number} {
     display: grid;
-    grid-template-columns: $value;
-    grid-template-rows: auto;
+    grid-template-columns: repeat($value, 1fr);
+    grid-template-rows: 1fr;
     column-gap: $container-padding;
   }
 }
@@ -14,7 +14,7 @@
 @each $number, $value in $grid-column {
   .grid-#{$number}-ng {
     display: grid;
-    grid-template-columns: $value;
-    grid-template-rows: auto;
+    grid-template-columns: repeat($value, 1fr);
+    grid-template-rows: 1fr;
   }
 }

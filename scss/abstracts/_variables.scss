@@ -36,12 +36,6 @@ $line-3: $line-base * 1.5;
 $line-4: $line-base * 1.75;
 $line-5: $line-base * 2;
 
-// Grid column
-$one-column: (auto);
-$two-column: (auto auto);
-$three-column: (auto auto auto);
-$four-column: (auto auto auto auto);
-
 // Break points
 $break-0: 0;
 $break-1: 420px;
@@ -94,7 +88,7 @@ $right: $pos-values;
 $left: $pos-values;
 
 // Grid
-$grid-column: ("one" $one-column, "two" $two-column, "three" $three-column, "four" $four-column);
+$grid-column: ("one" 1, "two" 2, "three" 3, "four" 4);
 
 // Text properties
 $text-align: ("left" left, "center" center, "right" right);

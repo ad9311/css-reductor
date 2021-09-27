@@ -56,18 +56,18 @@
     @each $number, $value in $grid-column {
       .grid-#{$number}-#{$media} {
         display: grid;
-        grid-template-columns: $value;
-        grid-template-rows: auto;
+        grid-template-columns: repeat($value, 1fr);
+        grid-template-rows: 1fr;
         column-gap: $container-padding;
       }
     }
 
     /* Grid columns No Gutter */
     @each $number, $value in $grid-column {
-      .grid-#{$number}-ng {
+      .grid-#{$number}-ng-#{$media} {
         display: grid;
-        grid-template-columns: $value;
-        grid-template-rows: auto;
+        grid-template-columns: repeat($value, 1fr);
+        grid-template-rows: 1fr;
       }
     }
   }
