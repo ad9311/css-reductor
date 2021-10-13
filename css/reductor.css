@@ -1167,6 +1167,44 @@
   color: black;
 }
 
+/* No Border */
+.border-none {
+  border: none;
+}
+
+/* Border Colors */
+.border-red {
+  border: 0.2rem solid #a70702;
+}
+
+.border-blue {
+  border: 0.2rem solid #1b70de;
+}
+
+.border-yellow {
+  border: 0.2rem solid #fc0;
+}
+
+.border-green {
+  border: 0.2rem solid #6da744;
+}
+
+.border-cyan {
+  border: 0.2rem solid #3fbfca;
+}
+
+.border-gray {
+  border: 0.2rem solid #999;
+}
+
+.border-white {
+  border: 0.2rem solid white;
+}
+
+.border-black {
+  border: 0.2rem solid black;
+}
+
 /* Links */
 a {
   color: inherit;
