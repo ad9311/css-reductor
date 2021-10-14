@@ -47,3 +47,10 @@
   white-space: nowrap;
   text-overflow: clip;
 }
+
+/* Text Transform */
+@each $transform, $value in $text-transform {
+  .text-#{$transform} {
+    text-transform: $value;
+  }
+}
