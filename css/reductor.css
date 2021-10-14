@@ -1012,6 +1012,31 @@
   text-overflow: clip;
 }
 
+/* Text Transform */
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-none {
+  text-transform: none;
+}
+
+.text-full {
+  text-transform: full-width;
+}
+
+.text-kana {
+  text-transform: full-size-kana;
+}
+
 /* Foreground */
 .text-transparent {
   color: transparent;
